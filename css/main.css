@@ -1,7 +1,9 @@
 /* Diseño para la sección main */
 
 main {
-    background: #d3c0a0;
+    background: -webkit-linear-gradient(transparent 5%, #d3c0a0, #a47c44);
+    padding: 20px;
+    padding-top: 40px;
 }
 
 /*******************************/

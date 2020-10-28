@@ -128,7 +128,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 92%;
-    margin: 0% 4% 50px 4%;
+    margin: 0% 4% 10px 4%;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 0px -15px 10px/20px 5px #2e2417 inset;
@@ -137,7 +137,7 @@
     justify-content: center;
 }
 
-#hd-menu #dv-portada .portada-info{
+#hd-menu #dv-portada .portada-info {
     text-align: center;
     color: #ece4dd;
     font-weight: 900;
