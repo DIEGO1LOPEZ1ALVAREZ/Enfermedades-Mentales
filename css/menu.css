@@ -136,8 +136,33 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+/* Estaba cambiando unas cosas de la portada de mi pagina, talvez lo quite si no lo borro */
+#hd-menu #dv-portada_2 {
+    background-image: url(../img/bgtrau_22.png);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92%;
+    margin: 0% 4% 10px 4%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px -15px 10px/20px 5px #2e2417 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 #hd-menu #dv-portada .portada-info {
+    text-align: center;
+    color: #ece4dd;
+    font-weight: 900;
+    margin: 12.5% 0% 12.5% 0%;
+    text-shadow: 0.1em 0.1em 0.08em #333;
+}
+
+#hd-menu #dv-portada_2 .portada-info {
     text-align: center;
     color: #ece4dd;
     font-weight: 900;
