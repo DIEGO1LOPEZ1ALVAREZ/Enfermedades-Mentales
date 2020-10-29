@@ -1,0 +1,130 @@
+/*CODIGO PARA AJUSTAR LA IMAGEN DE INICIO */
+#inicio
+{
+	margin-top: 12px;
+	width: 100%;
+}
+#inicio .about
+{
+	width: 100%;
+	display: flex; /*para que se adapte*/
+	flex-wrap: wrap;/*todo lo que mo quepa se ajusre abajo*/
+	justify-content: center;
+}
+#inicio .inicio img
+{
+	width: 500px;
+}
+.texto
+{
+	margin: 30px;
+	float: left;
+	max-width: 480px;
+}
+.texto p
+{
+	font-size: 16px;
+	font-weight: 300;
+	text-align: justify;
+	line-height: 20px; /*separacion del texto*/
+}
+.texto h3
+{
+	color: #d3c0a0;
+	font-size: 25px;
+	font-weight: 500px;
+}
+/*CODIGO PARA LA LISTA DE LOS TRASTORNOS */
+
+#lista
+{
+	margin-top: 12px;
+	width: 100%;
+}
+#lista .contenido
+{
+	width: 100%;
+	display: flex; /*para que se adapte*/
+	flex-wrap: wrap;/*todo lo que mo quepa se ajusre abajo*/
+	justify-content: center;
+}
+#lista .imagen img
+{
+	width: 500px;
+	border-radius: 15px;
+}
+.texto
+{
+	margin: 30px;
+	float: left;
+	max-width: 480px;
+}
+.texto p
+{
+	font-size: 16px;
+	font-weight: 300;
+	text-align: justify;
+	line-height: 20px; /*separacion del texto*/
+}
+.texto h3
+{
+	color: #d3c0a0;
+	font-size: 25px;
+	font-weight: 500px;
+}
+
+
+
+
+/*paralaex e*/
+
+
+/* AQUI PARALAX*/
+.features .paralax
+{
+	background-image: url("https://ecoosfera.com/wp-content/imagenes/2020/07/mente-tratamiento-enfermedades-mentales-psiquiatria_optimized.jpg");
+
+	min-height: 100px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#opacidad
+{
+	min-height: 200px;
+	background-color: rgba(211,171,164,0.5);
+	margin-top: 50px;
+}
+.items i
+{
+	font-size: 50px;
+	font-weight: bolder;
+	color: white;
+	padding: 20px;
+
+}
+
+.items h4
+{
+	color: white;
+	font-size: 17px;
+	font-weight: 1;
+	text-align: center;
+
+}
+#opacidad
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.items{
+	text-align: center;
+	margin:60px;
+
+}
+
