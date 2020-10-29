@@ -138,13 +138,13 @@
 }
 /* Estaba cambiando unas cosas de la portada de mi pagina, talvez lo quite si no lo borro */
 #hd-menu #dv-portada_2 {
-    background-image: url(../img/bgtrau_22.png);
-    min-height: 400px;
+    background-image: url(../img/main-portada.jpeg);
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 92%;
+    width: 90%;
     margin: 0% 4% 10px 4%;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
