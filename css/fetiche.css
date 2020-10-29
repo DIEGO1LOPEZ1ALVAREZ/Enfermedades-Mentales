@@ -1,0 +1,189 @@
+#hd-menu header .menu-header {
+    position: static;
+    height: 40px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.493);
+}
+
+#hd-menu header .menu-header h4 {
+    font-size: 16px;
+    margin: 0;
+} 
+
+#hd-menu header .menu-header h6 {
+    font-size: 12px;
+}
+
+/**********************************/
+
+/* Diseño para el menú */
+
+#hd-menu #nv-menu {
+    background: #ece4dd;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+
+    /*Se encarga de hacer el menú pegajoso*/
+    .menu-sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .menu-sticky + main {
+        padding-top: 100px;
+    }
+    /**************************************/
+
+#hd-menu #nv-menu .menu {
+    top: 50px;
+    transition: all 0.5s;
+    position: fixed;
+    z-index: 100;
+    position: static;
+    width: auto;
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+}
+
+#hd-menu #nv-menu .menu .frm-cont-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 0px;
+    margin-right: -12px;
+}
+
+#hd-menu #nv-menu .menu .wrap-frm-link {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 auto;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#hd-menu #nv-menu .menu .frm-link {
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    background: #363636;
+    background: -webkit-linear-gradient(225deg, #b3946b, #ece4dde0, #b3946b, #ece4dde0);
+    background: -o-linear-gradient(225deg, #b3946b, #ece4dde0, #b3946b, #ece4dde0);
+    background: -moz-linear-gradient(225deg, #b3946b, #ece4dde0, #b3946b, #ece4dde0);
+    background: linear-gradient(225deg, #b3946b, #ece4dde0, #b3946b, #ece4dde0);
+    top: 0;
+    left: -100%;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+#hd-menu #nv-menu .menu .wrap-frm-link:hover .frm-link {
+    left: -5%;
+}
+
+#hd-menu #nv-menu .menu .wrap-frm-link a {
+    font-size: 15px;
+    text-align: right;
+    display: block;
+    color: rgba(255, 255, 255, 0.678);
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 20px;
+    transition: all 0.4s;
+}
+
+#hd-menu #nv-menu .menu .wrap-frm-link:hover a {
+    color: rgb(255, 255, 255);
+    padding: 15px 23px 15px 18px;
+    text-shadow: 0.1em 0.1em 0.08em #333;
+}
+
+/*******************************************************/
+
+/* Diseño de la portada */
+
+#hd-menu #dv-portada {
+    background-image: url(../img/main-portada.jpeg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92%;
+    margin: 0% 4% 10px 4%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px -15px 10px/20px 5px #2e2417 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#hd-menu #dv-portada .portada-info {
+    text-align: center;
+    color: #ece4dd;
+    font-weight: 900;
+    margin: 12.5% 0% 12.5% 0%;
+    text-shadow: 0.1em 0.1em 0.08em #333;
+}
+
+#hd-menu #dv-portada .portada-info h2 i {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.texto
+{
+    margin: 30px;
+    float: left;
+    max-width: 480px;
+}
+
+.texto p
+{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 20px;
+}
+.texto h3
+{
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+.texto2
+{
+    margin: 30px;
+    float: center;
+    max-width: 1000px;
+}
+
+.texto2 p
+{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 20px;
+}
+.texto2 h3
+{
+    font-size: 25px;
+    font-weight: 500px;
+}
