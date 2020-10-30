@@ -147,3 +147,41 @@
     font-size: 15px;
     text-decoration: underline;
 }
+
+/* Algunos estilos aplicables */
+.tb1 {
+    background-color: #be9860; 
+    background: #be9860;
+    text-align: center;
+    height: 100%;
+    width: 75%;
+    text-shadow: 2px 2px #FFFFFF;   
+}
+.cen{
+    align-items: center;
+} 
+.tb0{
+    background-color: #be9860; 
+    background: #be9860;
+    text-align: center;
+    color: #fcfcfc;
+    height: 70px;
+    width: 100%;
+    text-shadow: 2px 2px #4c453a;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px -15px 10px/20px 5px #2e2417 inset;
+}
+.box_text{
+    background-color: #e5dac5; 
+    background: #e5dac5;
+    text-align: left;
+    color: #000000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 0.5px 0.5px #82735d;
+}
