@@ -25,6 +25,7 @@
     width: 100%;
     height: 50px;
     overflow: hidden;
+    z-index: 10000000;
 }
 
     /*Se encarga de hacer el menú pegajoso*/
