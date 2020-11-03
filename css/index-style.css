@@ -1,0 +1,47 @@
+/* Apartado para diseño de los links del index */
+
+#mn-autismo #mn-body .cont-comunes {
+    background-image: url(https://ecoosfera.com/wp-content/imagenes/2020/07/mente-tratamiento-enfermedades-mentales-psiquiatria_optimized.jpg); 
+}
+
+#mn-autismo #mn-body .cont-parafilias {
+    background-image: url(../img/Dacrifilia.jpg);
+}
+
+#mn-autismo #mn-body .cont-raras {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/45/Trichotillomania_1.jpg);
+}
+
+#mn-autismo #mn-body .cont-traumas {
+    background-image: url(../img/trauma_1.jpg);
+}
+
+#mn-autismo #mn-body .cont-fobias {
+    background-image: url(../img/zoofobia.jfif);
+}
+
+#mn-autismo #mn-body .cont-sindromes {
+    background-image: url(../img/cristal.jpg);
+}
+
+#mn-autismo #mn-body .cont-fetiches {
+    background-image: url(https://sc01.alicdn.com/kf/UTB8uNYNhpfJXKJkSamHq6zLyVXab.jpg_350x350.jpg);
+}
+
+#mn-autismo #mn-body .cont-extraños {
+    background-image: url(https://s.libertaddigital.com/2020/07/24/954/0/britney-spears-2020.jpg);
+}
+
+#mn-autismo #mn-body .cont-br a {
+    text-shadow: 0.1em 0.1em 0.08em #333;
+    text-decoration: none;
+    color: #ece4dd;
+    font-weight: 900;
+}
+
+#mn-autismo #mn-body .cont-br {
+    text-align: center;
+    padding: 10px;
+}
+
+/***********************************************/
